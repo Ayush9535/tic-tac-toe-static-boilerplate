@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+*{
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-container h1{
+    font-size: 100px;
+    color: #FAB201;
+    -webkit-text-stroke: 5px white;
+    font-weight: bolder;
+}
+
+.game-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    width: fit-content;
+    grid-gap: 10px;
+}
+
+.game-div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset -2px -2px 0 0 gray;
+    
+}
+.footer{
+    color: white;
+    margin-top: 10%;
+}
